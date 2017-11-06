@@ -1,0 +1,6 @@
+The error states that the variable or method "shoes" in line 3 is accessed
+without priorly being defined.
+
+NameError: undefined local variable or method `shoes' for main:Object
+  from (irb):3
+  from /usr/local/rvm/rubies/ruby-2.0.0-rc2/bin/irb:16:in `<main>'

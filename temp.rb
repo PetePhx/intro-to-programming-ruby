@@ -1,7 +1,9 @@
-# preparation.rb
-require "pry"
+a = 5
 
-a = [1, 2, 3]
-a << 4
-binding.pry     # execution will pause here, allowing you to inspect all objects
+3.times do |n|    # method invocation with a block
+  a = 3
+  b = 5           # b is initialized in the inner scope
+end
+
 puts a
+puts b            # is b accessible here, in the outer scope?
