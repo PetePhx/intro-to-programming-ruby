@@ -1,9 +1,8 @@
-a = 5
-
-3.times do |n|    # method invocation with a block
-  a = 3
-  b = 5           # b is initialized in the inner scope
+def say(words)
+  puts words + '.'    ## <= We only make the change here!
 end
 
-puts a
-puts b            # is b accessible here, in the outer scope?
+say("hello")
+say("hi")
+say("how are you")
+say("I'm fine")
