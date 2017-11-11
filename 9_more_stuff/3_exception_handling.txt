@@ -1,0 +1,6 @@
+Exception handling deals with handling of unexpected interruptions in the flow
+of execution by providing an alternative route of execution when an exception
+occurs in a given code block.
+
+With exception handling the program execution does not have to come to stop upon
+encountering any errors/exceptions. 
