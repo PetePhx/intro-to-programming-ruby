@@ -1,0 +1,3 @@
+The 'official' documentaion/APIs for ruby (ruby-doc.org) and rails
+(rubyonrails.org) both have plenty of information and examples presented
+in an organized fashion. 
